@@ -1,0 +1,38 @@
+
+
+.solve {
+    margin-top: var(--block-margin);
+}
+
+.solve__container {
+    gap: var(--inner-block-gap);
+}
+
+.solve__list {
+    padding: 0 var(--padding-5);
+}
+
+.solve__item:not(:last-of-type) {
+    border-right: 5px solid var(--primelogobsbcolours-almostwhite)
+}
+
+.solve__article {
+    position: relative;
+    padding: 266px var(--padding-6) 226px;
+}
+
+.s-article__heading {
+    position: relative;;
+    z-index: 1;
+}
+
+.s-article__bg {
+    position: absolute;
+    top: 0;
+    left: var(--space-6);
+    transform: translate(0, 50px);
+}
+
+.s-article__bg svg {
+    z-index: 0;
+}
