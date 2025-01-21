@@ -49,9 +49,10 @@
     position: absolute;
     top: calc(var(--circle-width) / 2);
     left: var(--benefits-offset);
-    right: calc(var(--benefits-offset) + 165px);
+    right: calc(var(--benefits-offset) + 170px);
     transform: translate(0, -50%);
     
+    width: 100%;
     max-width: 830px;
     height: 5px;
     background: url('../../public/benefits/line.svg') no-repeat center / cover;
