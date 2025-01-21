@@ -6,8 +6,12 @@ p {
     letter-spacing: 0.05em;
 }
 
-.wrap-balance {
+.balance {
     text-wrap: balance;
+}
+
+.pretty {
+    text-wrap: pretty;
 }
 
 .font-medium {

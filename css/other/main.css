@@ -15,5 +15,6 @@
 }
 
 .other__text {
-    max-width: 670px;
+    max-width: 700px;
+    line-height: 1.3;
 }
