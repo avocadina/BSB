@@ -1,0 +1,30 @@
+@import url('./media.css');
+@import url('./animation.css');
+
+.tech {
+    margin-top: var(--block-margin);
+}
+
+.tech__container {
+    gap: var(--inner-block-gap);
+}
+
+.tech__container .container {
+    width: 100%;
+}
+
+.tech__content {
+    width: max-content;
+    
+    gap: var(--inner-block-gap);
+}
+
+.tech__list {
+    overflow: hidden;
+    gap: var(--tech-list-animation-gap);
+}
+
+
+.t-article__span {
+    letter-spacing: 2.4px;
+}

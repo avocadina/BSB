@@ -75,9 +75,14 @@ p {
     color: var(--primelogobsbcolours-logoyellow);
 }
 
+
 /* size */
 .text--18 {
     font-size: 18px;
+}
+
+.text--48 {
+    font-size: 48px;
 }
 
 .text--60 {

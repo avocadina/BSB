@@ -1,0 +1,25 @@
+.tech__list {
+    animation: tech-list-animation 30s linear infinite normal;
+}
+
+.tech__list--second {
+    animation: tech-list-second-animation 20s linear infinite normal;
+}
+
+@keyframes tech-list-second-animation {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-50% - var(--tech-list-animation-gap)/2));
+    }
+}
+
+@keyframes tech-list-animation {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-50% - var(--tech-list-animation-gap)/2));
+    }
+}

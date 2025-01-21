@@ -37,6 +37,7 @@
 	--block-margin: 80px;
 	
 	/* gap */
+	--tech-list-animation-gap: 144px;
 	--inner-block-gap: 56px;
 	--space-0: 2px;
 	--space-1: 6px;

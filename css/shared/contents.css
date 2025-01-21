@@ -22,6 +22,10 @@
     grid-column: 6 span;
 }
 
+.grid__item--small {
+    grid-column: 2 span;
+}
+
 /* justify */
 .space-between {
     justify-content: space-between;
