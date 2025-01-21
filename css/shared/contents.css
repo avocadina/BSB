@@ -8,6 +8,11 @@
     flex-direction: column;
 }
 
+.flex-row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
 /* grid */
 .grid {
     display: grid;

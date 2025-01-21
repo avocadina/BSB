@@ -19,6 +19,8 @@
 	--cmykforbsb-cmykrefblue: #00006c;
 	--cmykforbsb-cmykrefgrey: #999;
 
+	--transition: all 0.5s ease;
+
     /* Шрифты */
     --font-family: "PT Sans", sans-serif;
     --second-family: "Handjet", sans-serif;
@@ -37,8 +39,10 @@
 	--block-margin: 80px;
 	
 	/* gap */
+	--tech-content-gap: 152px;
 	--tech-list-animation-gap: 144px;
 	--inner-block-gap: 56px;
+	--new-solve-list-gap: 48px;
 	--space-0: 2px;
 	--space-1: 6px;
 	--space-2: 12px;
@@ -53,6 +57,8 @@
 	--space-11: 140px;
 
 	/* padding */
+	--button-padding: 10px 40px;
+	--padding-0: 8px;
 	--padding-1: 10px;
 	--padding-3: 18px;
 	--padding-5: 30px;

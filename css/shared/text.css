@@ -67,6 +67,10 @@ p {
     color: var(--primelogobsbcolours-logobluepurple);
 }
 
+.text-color--lightpurple {
+    color: var(--primelogobsbcolours-supportlightpurple);
+}
+
 .text-color--coolgrey {
     color: var(--pantonebsb-pantonecoolgrey);
 }
@@ -79,6 +83,10 @@ p {
 /* size */
 .text--18 {
     font-size: 18px;
+}
+
+.text--25 {
+    font-size: 25px;
 }
 
 .text--48 {

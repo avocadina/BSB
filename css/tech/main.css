@@ -2,6 +2,7 @@
 @import url('./animation.css');
 
 .tech {
+    overflow: hidden;
     margin-top: var(--block-margin);
 }
 
@@ -15,12 +16,10 @@
 
 .tech__content {
     width: max-content;
-    
-    gap: var(--inner-block-gap);
+    gap: var(--tech-content-gap);
 }
 
 .tech__list {
-    overflow: hidden;
     gap: var(--tech-list-animation-gap);
 }
 

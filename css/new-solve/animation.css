@@ -1,0 +1,35 @@
+#new-solve-path1,
+#new-solve-path2,
+#new-solve-path3,
+#new-solve-path4,
+#new-solve-hole,
+#new-solve-lock {  
+    transition: var(--transition);
+}
+
+
+@media (any-hover: hover) {
+    #new-solve-svg1:hover {
+        transform: translate(10%, 0);
+    }
+
+    #new-solve-svg2:hover #new-solve-path1 {
+        transform: translate(-10%, -10%);
+    }
+    #new-solve-svg2:hover #new-solve-path2 {
+        transform: translate(10%, -10%);
+    }
+    #new-solve-svg2:hover #new-solve-path3 {
+        transform: translate(-10%, 10%);
+    }
+    #new-solve-svg2:hover #new-solve-path4 {
+        transform: translate(10%, 10%);
+    }
+
+    #new-solve-svg3:hover #new-solve-hole {
+        opacity: 0;
+    }
+    #new-solve-svg3:hover #new-solve-lock {
+        transform: translate(0, -10%);
+    }
+}

@@ -1,4 +1,4 @@
-
+@import url('./hover.css');
 
 .solve {
     margin-top: var(--block-margin);
@@ -22,8 +22,12 @@
 }
 
 .s-article__heading {
-    position: relative;;
+    position: relative;
     z-index: 1;
+}
+
+.s-article__title {
+    transition: all 0.5s ease;
 }
 
 .s-article__bg {
@@ -35,4 +39,12 @@
 
 .s-article__bg svg {
     z-index: 0;
+}
+
+.s-article__link::after {
+    position: absolute;
+    inset: 0;
+    content: '';
+    z-index: 1;
+    cursor: pointer;
 }
