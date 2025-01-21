@@ -7,6 +7,38 @@
     animation: cube-animation 10s ease-in-out infinite normal;
 }
 
+.expertise__span--yellow {
+    animation: from-yellow-to-purple 10s ease-in-out infinite normal;
+}
+
+.expertise__span--purple {
+    animation: from-purple-to-yellow 10s ease-in-out infinite normal;
+}
+
+@keyframes from-yellow-to-purple {
+    0% {
+        color: var(--primelogobsbcolours-logoyellow);
+    }
+    50% {
+        color: var(--primelogobsbcolours-logobluepurple);
+    }
+    100% {
+        color: var(--primelogobsbcolours-logoyellow);
+    }
+}
+
+@keyframes from-purple-to-yellow {
+    0% {
+        color: var(--primelogobsbcolours-logobluepurple);
+    }
+    50% {
+        color: var(--primelogobsbcolours-logoyellow);
+    }
+    100% {
+        color: var(--primelogobsbcolours-logobluepurple);
+    }
+}
+
 @keyframes cube-animation {
     0% {
         fill: var(--primelogobsbcolours-almostwhite);
