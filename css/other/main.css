@@ -1,0 +1,19 @@
+@import url('./media.css');
+
+.other {
+    margin-top: var(--major-margin);
+}
+
+.other__container {
+    gap: 20px
+}
+
+.other__bar {
+    width: 10px;
+    height: 220px;
+    background-color: var(--primelogobsbcolours-logobluepurple);
+}
+
+.other__text {
+    max-width: 670px;
+}

@@ -28,4 +28,8 @@
     /*  */
     --container-width: 1110px;
     --container-offset: 15px;
+
+	/*  */
+	--major-margin: 100px;
+	--block-margin: 80px;
 }
