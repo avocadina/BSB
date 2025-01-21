@@ -6,7 +6,7 @@
 
 .benefits__list {
     position: relative;
-    column-gap: var(--space-6);
+    column-gap: var(--space-7);
 }
 
 .benefits__circle {

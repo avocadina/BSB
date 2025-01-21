@@ -46,9 +46,12 @@ p {
     font-family: var(--second-family);
 }
 
-
 .third-family {
     font-family: var(--third-family);
+}
+
+.other-family {
+    font-family: var(--font3);
 }
 
 /* color */
@@ -68,6 +71,10 @@ p {
     color: var(--pantonebsb-pantonecoolgrey);
 }
 
+.text-color--yellow {
+    color: var(--primelogobsbcolours-logoyellow);
+}
+
 /* size */
 .text--18 {
     font-size: 18px;
@@ -75,4 +82,8 @@ p {
 
 .text--60 {
     font-size: 60px;
+}
+
+.text--140 {
+    font-size: 140px;
 }

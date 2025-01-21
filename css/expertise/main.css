@@ -1,0 +1,33 @@
+@import url('./media.css');
+@import url('./animation.css');
+
+.expertise {
+    margin-top: var(--block-margin);
+}
+
+.expertise__container {
+    gap: var(--inner-block-gap);
+}
+
+.expertise__content {
+    position: relative;
+}
+
+.expertise__list {
+    row-gap: var(--space-11);
+}
+
+.expertise__article {
+    width: fit-content;
+}
+
+.expertise__logo-animation {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.exp-article__heading {
+    padding: var(--space-1) var(--);
+}

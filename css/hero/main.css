@@ -24,7 +24,7 @@
 }
 
 .main__text {
-    gap: var(--space-6);
+    gap: var(--space-8);
 }
 
 .text__title {
