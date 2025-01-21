@@ -2,9 +2,18 @@
     display: flex;
 }
 
-.column {
+.flex-column {
     display: flex;
     flex-direction: column;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.grid__item {
+    grid-column: 4 span;
 }
 
 .space-between {
@@ -17,6 +26,10 @@
 
 .justify-start {
     justify-content: start;
+}
+
+.justify-center {
+    justify-content: center;
 }
 
 .align-center {
@@ -33,4 +46,8 @@
 
 .self-center {
     align-self: center;
+}
+
+.self-end {
+    align-self: end;
 }

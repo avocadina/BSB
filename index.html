@@ -14,12 +14,12 @@
 <body class="body">
     <main class="main">
         <section class="hero">
-            <div class="column hero__container">
+            <div class="flex-column hero__container">
                 <div class="hero__main">
                     <div class="container">
-                        <div class="column main__container">
+                        <div class="flex-column main__container">
                             <div class="flex space-between align-center header">
-                                <span>
+                                <button class="header__button">
                                     <svg width="45" height="46" viewBox="0 0 45 46" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path d="M15.7343 16.2343H29.4231V29.9231H15.7343V16.2343Z" fill="#F5F5F5"
@@ -28,8 +28,8 @@
                                             d="M45 23C45 35.4264 34.9264 45.5 22.5 45.5C10.0736 45.5 0 35.4264 0 23C0 10.5736 10.0736 0.5 22.5 0.5C34.9264 0.5 45 10.5736 45 23ZM22.5 39.049C31.2767 39.049 38.3916 31.934 38.3916 23.1573C38.3916 14.3806 31.2767 7.26574 22.5 7.26574C13.7233 7.26574 6.60839 14.3806 6.60839 23.1573C6.60839 31.934 13.7233 39.049 22.5 39.049Z"
                                             fill="#F5F5F5" fill-opacity="0.2" />
                                     </svg>
-                                </span>
-                                <span>
+                                </button>
+                                <button class="header__button">
                                     <svg width="35" height="36" viewBox="0 0 35 36" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0.485107 0.366028H14.1739V14.0548H0.485107V0.366028Z" fill="#F5F5F5"
@@ -41,9 +41,9 @@
                                         <path d="M0.485114 21.8938H14.1739V35.5826H0.485114V21.8938Z" fill="#F5F5F5"
                                             fill-opacity="0.2" />
                                     </svg>
-                                </span>
+                                </button>
                             </div>
-                            <div class="column main__text">
+                            <div class="flex-column main__text">
                                 <div class="flex text__title">
                                     <span class="self-center">
                                         <svg width="330" height="78" viewBox="0 0 330 78" fill="none"
@@ -84,7 +84,8 @@
                                         </svg>
                                     </span>
                                 </div>
-                                <h2 class="title title--30 text__subtitle">
+                                <h2
+                                    class="title--30 text-color--bluepurple uppercase second-family font-bold text__subtitle">
                                     ЭКСПЕРТИЗА В&nbsp;ОБЛАСТИ
                                     ИНФОРМАЦИОННЫХ&nbsp;ТЕХНОЛОГИЙ&nbsp;И&nbsp;БЕЗОПАСНОСТИ
                                 </h2>
@@ -124,7 +125,8 @@
                 <div class="flex align-start other__container">
                     <div class="other__bar"></div>
                     <p class="text-color--darkgrey text--18 pretty other__text">
-                        Разнообразный&nbsp;и&nbsp;богатый&nbsp;опыт&nbsp;требует&nbsp;привлечения&nbsp;внимания&nbsp;к&nbsp;процессу расширения
+                        Разнообразный&nbsp;и&nbsp;богатый&nbsp;опыт&nbsp;требует&nbsp;привлечения&nbsp;внимания&nbsp;к&nbsp;процессу
+                        расширения
                         и&nbsp;намерения значительного развития. Идейные высокие порядки, также сложившаяся структура
                         организации позволяют выполнять сложные задания по&nbsp;разработке системы обучения кадров,
                         согласно насущным расчетам. Равным образом укрепленная и&nbsp;развитая структура требует
@@ -133,6 +135,50 @@
                         важную роль в&nbsp;моделях развития.
                     </p>
                 </div>
+            </div>
+        </section>
+        <section class="benefits">
+            <div class="container">
+                <ul class="grid benefits__list">
+                    <div class="benefits__line"></div>
+                    <li class="grid__item">
+                        <article class="flex-column benefits__article">
+                            <div class="benefits__circle" id="circle1">
+                                <span class="text--60 second-family font-bold text-color--clearwhite">1</span>
+                            </div>
+                            <div class="flex-column benefits__text">
+                                <h4 class="title--25 font-bold second-family text-color--bluepurple">КОМПЛЕКСНЫЕ
+                                    ИТ-РЕШЕНИЯ</h4>
+                                <p class="text--18 text-color--darkgrey balance">для обзора корпоративных клиентов
+                                    и&nbsp;госзаказчиков</p>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="grid__item">
+                        <article class="flex-column benefits__article">
+                            <div class="benefits__circle">
+                                <span class="text--60 second-family font-bold text-color--clearwhite">2</span>
+                            </div>
+                            <div class="flex-column benefits__text">
+                                <h4 class="title--25 font-bold second-family text-color--bluepurple">ОПЫТ РЕАЛИЗАЦИИ
+                                </h4>
+                                <p class="text--18 text-color--darkgrey">сложных технологических проектов</p>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="grid__item">
+                        <article class="flex-column benefits__article">
+                            <div class="benefits__circle" id="circle3">
+                                <span class="text--60 second-family font-bold text-color--darkgrey">3</span>
+                            </div>
+                            <div class="flex-column benefits__text">
+                                <h4 class="title--25 font-bold second-family text-color--bluepurple">ЦЕЛЕВЫЕ КОМПЕТЕНЦИИ
+                                </h4>
+                                <p class="text--18 text-color--darkgrey">по внедрению отраслевых ИТ-решений</p>
+                            </div>
+                        </article>
+                    </li>
+                </ul>
             </div>
         </section>
     </main>

@@ -1,0 +1,58 @@
+
+
+.benefits {
+    margin-top: var(--block-margin);
+}
+
+.benefits__list {
+    position: relative;
+    column-gap: var(--space-6);
+}
+
+.benefits__circle {
+    position: relative;
+    width: var(--circle-width);
+    aspect-ratio: 1;
+    border-radius: 100%;
+    background-color:  var(--primelogobsbcolours-logobluepurple);
+    z-index: 1;
+}
+
+#circle1 {
+    background-color: var(--primelogobsbcolours-logoyellow);
+}
+
+#circle3 {
+    background-color:  var(--primelogobsbcolours-almostwhite);
+}
+
+.benefits__circle span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.benefits__article {
+    gap: var(--space-5);
+}
+
+.benefits__text {
+    gap: var(--space-0);
+}
+
+.benefits__text p {
+    padding-left: var(--padding-3);
+}
+
+.benefits__line {
+    position: absolute;
+    top: calc(var(--circle-width) / 2);
+    left: var(--benefits-offset);
+    right: calc(var(--benefits-offset) + 165px);
+    transform: translate(0, -50%);
+    
+    max-width: 830px;
+    height: 5px;
+    background: url('../../public/benefits/line.svg') no-repeat center / cover;
+}

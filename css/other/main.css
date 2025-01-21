@@ -5,7 +5,7 @@
 }
 
 .other__container {
-    gap: 20px
+    gap: var(--space-4);
 }
 
 .other__bar {

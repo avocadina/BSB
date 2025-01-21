@@ -25,11 +25,30 @@
     --third-family: "Press Start 2P", sans-serif;
     --font3: "Eboy EXTAlpha", sans-serif;
 
-    /*  */
+    /* dimensions */
     --container-width: 1110px;
     --container-offset: 15px;
 
-	/*  */
+	--circle-width: 116px;
+	--benefits-offset: 27px;
+
+	/* margin */
 	--major-margin: 100px;
 	--block-margin: 80px;
+	
+	/* gap */
+	--space-0: 2px;
+	--space-1: 8px;
+	--space-2: 12px;
+	--space-3: 16px;
+	--space-4: 20px;
+	--space-5: 24px;
+	--space-6: 40px;
+	--space-7: 60px;
+	--space-8: 80px;
+	--space-9: 110px;
+
+	/* padding */
+	--padding-1: 10px;
+	--padding-3: 18px;
 }

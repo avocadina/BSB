@@ -1,20 +1,21 @@
-.title {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
     margin: 0;
     padding: 0;
     font-family: var(--font-family);
     font-weight: 400;
+    letter-spacing: 0.05em;
 }
 
+.title--25 {
+    font-size: 25px;
+}
 
 .title--30 {
-    font-family: var(--second-family);
     font-size: 30px;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    color: var(--primelogobsbcolours-logobluepurple);
-}
-
-.title--80 {
-    font-family: 'Press Start 2P';
-    font-size: 80px;
 }

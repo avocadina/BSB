@@ -6,6 +6,16 @@ p {
     letter-spacing: 0.05em;
 }
 
+/* transformation */
+.text-right {
+    text-align: right;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/* wrap */
 .balance {
     text-wrap: balance;
 }
@@ -14,6 +24,7 @@ p {
     text-wrap: pretty;
 }
 
+/* weight */
 .font-medium {
     font-weight: 500;
 }
@@ -26,18 +37,34 @@ p {
     font-weight: 700;
 }
 
+/* family */
 .second-family {
     font-family: var(--second-family);
 }
+
 
 .third-family {
     font-family: var(--third-family);
 }
 
+/* color */
 .text-color--darkgrey {
     color: var(--primelogobsbcolours-logodarkgrey);
 }
 
+.text-color--clearwhite {
+    color: var(--primelogobsbcolours-clearwhite);
+}
+
+.text-color--bluepurple {
+    color: var(--primelogobsbcolours-logobluepurple);
+}
+
+/* size */
 .text--18 {
     font-size: 18px;
+}
+
+.text--60 {
+    font-size: 60px;
 }
