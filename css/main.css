@@ -1,0 +1,11 @@
+/* shared */
+@import url('./vars.css');
+@import url('./fonts.css');
+@import url('./setting.css');
+@import url('./shared/button.css');
+@import url('./shared/contents.css');
+@import url('./shared/title.css');
+@import url('./shared/text.css');
+
+/* blocks */
+@import url('./hero/main.css');

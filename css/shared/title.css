@@ -1,0 +1,20 @@
+.title {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family);
+    font-weight: 400;
+}
+
+
+.title--30 {
+    font-family: var(--second-family);
+    font-size: 30px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--primelogobsbcolours-logobluepurple);
+}
+
+.title--80 {
+    font-family: 'Press Start 2P';
+    font-size: 80px;
+}

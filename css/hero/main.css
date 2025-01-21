@@ -1,0 +1,36 @@
+@import url('./header.css');
+@import url('./media.css');
+
+.hero__container {
+    position: relative;
+}
+
+.hero__bg-image {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    transform: translate(0, 35%)
+}
+
+.hero__main {
+    background: url('../../public/hero/hero-background.png') no-repeat center / cover;
+    padding-top: 45px;
+    padding-bottom: 477px;
+}
+
+.main__container {
+    gap: 110px;
+}
+
+.main__text {
+    gap: 60px;
+}
+
+.text__title {
+    gap: 20px;
+}
+
+.text__subtitle {
+    max-width: 665px;
+}

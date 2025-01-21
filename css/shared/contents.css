@@ -1,0 +1,36 @@
+.flex {
+    display: flex;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.justify-stretch {
+    justify-content: stretch;
+}
+
+.justify-start {
+    justify-content: start;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.aling-start {
+    align-items: start;
+}
+
+.align-end {
+    align-items: end;
+}
+
+.self-center {
+    align-self: center;
+}
