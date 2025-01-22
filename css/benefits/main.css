@@ -4,6 +4,10 @@
     margin-top: var(--block-margin);
 }
 
+.benefits__container {
+    position: relative;
+}
+
 .benefits__list {
     position: relative;
     column-gap: var(--space-7);
@@ -47,13 +51,14 @@
 
 .benefits__line {
     position: absolute;
-    top: calc(var(--circle-width) / 2);
-    left: var(--benefits-offset);
-    right: calc(var(--benefits-offset) + 170px);
+    top: calc( var(--circle-width) / 2 );
+    left: calc( var(--container-offset) + 27px);
+
     transform: translate(0, -50%);
     
-    width: 100%;
+    width: 70%;
     max-width: 830px;
     height: 5px;
     background: url('../../public/benefits/line.svg') no-repeat center / cover;
+    flex-shrink: 0;
 }
