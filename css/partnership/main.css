@@ -1,0 +1,60 @@
+@import url('./media.css');
+@import url('./animation.css');
+
+.partnership {
+    margin-top: var(--major-margin);
+}
+
+.partnership__container {
+    gap: var(--inner-block-gap);
+}
+
+.partnership__container .container {
+    width: 100%;
+}
+
+.partnership__slider {
+    position: relative;
+}
+
+.p-slider__list {
+    overflow: hidden;
+    gap: var(--slider-gap);
+}
+
+.p-slider__item {
+    z-index: 1;
+    width: 120px;
+}
+
+.p-slider__image {
+    min-width: 120px;
+}
+
+.p-slider__image img {
+    transition: var(--transition);
+    filter: grayscale(1);
+}
+
+.p-slider__buttons {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 50%;
+    height: 50px;
+}
+
+.slider__button {
+    position: absolute
+}
+
+#p-next {
+    right: -44px;
+    transform: translateX(100%)
+}
+
+#p-prev {
+    left: -44px;
+    transform: rotate(180deg) translateX(100%);
+    
+}

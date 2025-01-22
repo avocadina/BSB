@@ -1,0 +1,9 @@
+@media (any-hover: hover) {
+    .p-slider__image:hover img {
+        filter: grayscale(0);
+    }
+    
+    .slider__button:hover svg path {
+        fill: var(--primelogobsbcolours-clearblack);
+    }
+}

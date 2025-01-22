@@ -28,7 +28,7 @@
 }
 
 .grid__item--small {
-    grid-column: 2 span;
+    grid-column: 1 span;
 }
 
 /* justify */

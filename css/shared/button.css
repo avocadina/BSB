@@ -15,6 +15,11 @@ button {
     transition: var(--transition);
 }
 
+button svg,
+button svg path {
+    transition: var(--transition);
+}
+
 button span {
     letter-spacing: 1.25px;
 }
