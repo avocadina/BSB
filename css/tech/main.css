@@ -16,6 +16,7 @@
 
 .tech__content {
     width: max-content;
+    overflow: hidden;
     gap: var(--tech-content-gap);
 }
 

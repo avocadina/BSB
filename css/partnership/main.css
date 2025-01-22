@@ -25,6 +25,8 @@
 .p-slider__item {
     z-index: 1;
     width: 120px;
+    transition: var(--transition);
+    user-select: none;
 }
 
 .p-slider__image {
@@ -45,16 +47,15 @@
 }
 
 .slider__button {
-    position: absolute
+    position: absolute;
 }
 
 #p-next {
     right: -44px;
-    transform: translateX(100%)
+    transform: translateX(100%);
 }
 
 #p-prev {
     left: -44px;
     transform: rotate(180deg) translateX(100%);
-    
 }
