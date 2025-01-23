@@ -19,6 +19,7 @@
 
 .p-slider__list {
     overflow: hidden;
+    padding: 0 var(--padding-0);
     gap: var(--slider-gap);
 }
 
