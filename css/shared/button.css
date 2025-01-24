@@ -6,6 +6,7 @@ button {
     border: none;
     cursor: pointer;
     user-select: none;
+    line-height: 1;
 
     transition: var(--transition);
 }
@@ -24,7 +25,7 @@ button span {
     background-color: var(--primelogobsbcolours-logoyellow);
 }
 
-.button--major p {
+.button--major span {
     transition: var(--transition);
 }
 
@@ -33,7 +34,7 @@ button span {
     background-color: var(--primelogobsbcolours-softlightpurple);
     transform: scale(0.9);
 }
-.button--major:active p {
+.button--major:active span {
     color: var(--primelogobsbcolours-almostwhite);
 }
 
@@ -42,7 +43,7 @@ button span {
         border-radius: 10px;
         background-color: var(--primelogobsbcolours-softlightpurple);
     }
-    .button--major:hover p {
+    .button--major:hover span {
         color: var(--primelogobsbcolours-almostwhite);
     }
 }
