@@ -1,0 +1,14 @@
+@media (any-hover: hover) {
+    .footer__link:hover {
+        color: var(--primelogobsbcolours-supportdarkyellow);
+        text-decoration: underline;
+    } .footer__link:hover h3 {
+        color: var(--primelogobsbcolours-supportdarkyellow);
+    } .footer__link:hover p {
+        color: var(--primelogobsbcolours-supportdarkyellow);
+    }
+
+    .footer__svg:hover svg path {
+        fill: var(--primelogobsbcolours-softlightpurple);
+    }
+}

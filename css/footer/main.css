@@ -1,0 +1,53 @@
+@import url('./animation.css');
+
+.footer {
+    padding-top: 300px;
+    background: url('../../public/footer/bg.png') no-repeat top left / cover;
+}
+
+.footer__container {
+    gap: var(--space-7);
+}
+
+.footer__center-column {
+    column-gap: var(--space-7);
+    row-gap: var(--space-5)
+}
+
+.footer__link {
+    font-size: 14px;
+    color: var(--primelogobsbcolours-logodarkgrey, #2B2A28);
+    transition: all 0.3s ease;
+}
+.footer__link h3 {
+    transition: all 0.3s ease;
+}
+
+.footer__svg svg path {
+    transition: var(--transition)
+}
+
+.footer__center-column a {
+    letter-spacing: 0.7px;
+}
+
+.footer__logo {
+    max-width: 152px;
+    max-height: 152px;
+}
+
+.footer__info {
+    gap: var(--space-3);
+}
+
+.footer__mini-info {
+    gap: var(--space-2);
+}
+
+.footer__contacts {
+    gap: var(--space-3);
+}
+
+.f-contacts__row {
+    gap: var(--space-2);
+}

@@ -19,6 +19,8 @@
 @import url('./partnership/main.css');
 @import url('./news/main.css');
 @import url('./contact/main.css');
+@import url('./footer/main.css');
+@import url('./burger/main.css');
 
 /* media */
 @import url('./media.css');

@@ -75,6 +75,10 @@ p {
     color: var(--cmykforbsb-cmykrefgrey);
 }
 
+.text-color--txtgrey {
+    color: var(--primelogobsbcolours-ancettxtgrey);
+}
+
 .text-color--bluepurple {
     color: var(--primelogobsbcolours-logobluepurple);
 }
