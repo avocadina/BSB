@@ -44,6 +44,7 @@
 	--inner-block-gap: 56px;
 	--new-solve-list-gap: 48px;
 	--slider-gap: 64px;
+	--form-gap: 36px;
 
 	--space-0: 2px;
 	--space-1: 6px;
@@ -68,4 +69,5 @@
 	--padding-4: 20px;
 	--padding-5: 30px;
 	--padding-6: 40px;
+	--padding-7: 55px;
 }

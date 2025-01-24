@@ -1,0 +1,70 @@
+.contact {
+    margin-top: var(--block-margin);
+}
+
+.contact__container {
+    gap: var(--inner-block-gap);
+}
+
+.contact__form {
+    gap: var(--form-gap);
+    padding: var(--padding-6) var(--padding-7);
+
+
+    border-radius: 7px;
+    border: 3px solid rgba(255, 255, 255, 0.20);
+
+    background: linear-gradient(to bottom right, #FFF 0%, rgba(255, 255, 255, 0.00) 50%) bottom right / 50% 50% no-repeat, linear-gradient(to bottom left, #FFF 0%, rgba(255, 255, 255, 0.00) 50%) bottom left / 50% 50% no-repeat, linear-gradient(to top left, #FFF 0%, rgba(255, 255, 255, 0.00) 50%) top left / 50% 50% no-repeat, linear-gradient(to top right, #FFF 0%, rgba(255, 255, 255, 0.00) 50%) top right / 50% 50% no-repeat;
+
+    box-shadow: 0px 1px 24px -1px rgba(0, 0, 0, 0.10);
+    backdrop-filter: blur(10px)
+}
+
+.form__input {
+    width: 100%;
+    padding: var(--padding-4);
+
+    border-radius: 7px;
+    border: 2px solid var(--CMYKforBSB-CMYKRefGrey, #999);
+    background: rgba(255, 255, 255, 0.30);
+
+    color: var(--primelogobsbcolours-logobluepurple);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.form__input::placeholder {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.7px;
+}
+
+#comment {
+    min-height: 200px;
+    resize: none;
+}
+
+#comment::-webkit-scrollbar {
+    display: none;
+}
+
+.form__input:active,
+.form__input:focus {
+    border: 2px solid var(--primelogobsbcolours-supportdarkyellow, #c9c601);
+    outline: none;
+}
+
+.form__button-container {
+    gap: var(--space-6);
+}
+
+.form__button-container p {
+    max-width: 160px;
+}
+
+.f-button__container {
+    padding-top: var(--padding-0);
+    padding-left: var(--padding-1);
+}

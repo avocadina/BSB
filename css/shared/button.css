@@ -28,12 +28,20 @@ button span {
     transition: var(--transition);
 }
 
+.button--major:active {
+    border-radius: 10px;
+    background-color: var(--primelogobsbcolours-softlightpurple);
+    transform: scale(0.9);
+}
+.button--major:active p {
+    color: var(--primelogobsbcolours-almostwhite);
+}
+
 @media (any-hover: hover) {
     .button--major:hover {
         border-radius: 10px;
         background-color: var(--primelogobsbcolours-softlightpurple);
     }
-
     .button--major:hover p {
         color: var(--primelogobsbcolours-almostwhite);
     }

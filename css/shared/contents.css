@@ -31,6 +31,10 @@
     grid-column: 1 span;
 }
 
+.grid__item--xl {
+    grid-column: 12 span;
+}
+
 /* justify */
 .space-between {
     justify-content: space-between;
