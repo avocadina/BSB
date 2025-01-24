@@ -1,0 +1,5 @@
+@media screen and (max-width: 1330px) {
+    .hero__main {
+        padding-bottom: calc(var(--hero-padding-bottom) / 2);
+    }
+}

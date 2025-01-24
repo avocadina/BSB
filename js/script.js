@@ -12,7 +12,7 @@ const countOfSlides = commonSlidesPartnership.length;
 
 function updatePartnershipSlider() {
     commonSlidesPartnership.forEach((slide) => {
-        let translateValue = `calc((-100% - var(--slider-gap)) * ${indexP})`;
+        let translateValue = `calc((-100% - var(--slider-gap) ${isSmall ? '- var(--padding-4)' : ''}) * ${indexP})`;
         slide.style.transform = `translate(${translateValue}, 0)`;
     });
 }
@@ -41,7 +41,7 @@ const countOfNews = commonSlidesNews.length;
 
 function updateSlider() {
     commonSlidesNews.forEach((slide) => {
-        let translateValue = `calc((-100% - var(--space-6) ${isSmall ? '- var(--padding-4)' : ''}) * ${index})`;
+        let translateValue = `calc((-100% - var(--space-6) ${isSmall ? '- var(--padding-5)' : ''}) * ${index})`;
         slide.style.transform = `translate(${translateValue}, 0)`;
     });
 }
