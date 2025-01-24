@@ -18,13 +18,13 @@ function updatePartnershipSlider() {
     });
 }
 
-prevButton?.addEventListener('click', () => {
+prevButton.addEventListener('click', () => {
     if (indexP > 0) {
         indexP -= 1;
         updatePartnershipSlider();
     }
 })
-nextButton?.addEventListener('click', () => {
+nextButton.addEventListener('click', () => {
     if (indexP < (countOfSlides - 6)) {
         indexP += 1;
         updatePartnershipSlider();
