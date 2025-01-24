@@ -6,6 +6,7 @@
 @import url('./shared/contents.css');
 @import url('./shared/title.css');
 @import url('./shared/text.css');
+@import url('./shared/slider.css');
 
 /* sections */
 @import url('./hero/main.css');
@@ -16,3 +17,4 @@
 @import url('./tech/main.css');
 @import url('./new-solve/main.css');
 @import url('./partnership/main.css');
+@import url('./news/main.css');

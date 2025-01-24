@@ -1,7 +1,10 @@
 @media (any-hover: hover) {
-    .p-slider__image:hover img {
+    .p-slider__article:hover img {
         filter: grayscale(0);
         transform: scale(1.05);
+    }
+    .p-slider__article:hover  p {
+        color: var(--primelogobsbcolours-clearblack)
     }
 
     .slider__button:hover svg path {

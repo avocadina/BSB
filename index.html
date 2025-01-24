@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="icon" href="public/icons/logo1.svg">
-    <link rel="preload" href="public/hero/hero-background.png">
+    <link rel="preload" href="public/hero/hero-background.png" as="image">
     <script src="js/script.js" defer></script>
     <title>Главная</title>
 </head>
@@ -490,7 +490,6 @@
                                         </clipPath>
                                     </defs>
                                 </svg>
-
                             </div>
                             <div class="flex-column ns-article__content">
                                 <div class="flex-column ns-content__text">
@@ -636,83 +635,143 @@
                         // партнеры
                     </h2>
                 </div>
-                <div class="partnership__slider">
-                    <ul class="flex align-center p-slider__list">
+                <div class="slider">
+                    <ul class="flex align-start p-slider__list">
                         <li class="p-slider__item">
-                            <div class="p-slider__image">
-                                <img src="./public/partnership/1.png" loading="lazy" width="120" height="120"
-                                    alt="Google">
-                            </div>
+                            <article class="flex-column align-center p-slider__article">
+                                <div class="p-slider__image">
+                                    <img src="./public/partnership/1.png" loading="lazy" width="120" height="120"
+                                        alt="Google">
+                                </div>
+                                <p class="text--20 font-bold second-family text-color--almostwhite uppercase">
+                                    Google
+                                </p>
+                            </article>
                         </li>
                         <li class="p-slider__item">
-                            <div class="p-slider__image">
-                                <img src="./public/partnership/2.png" loading="lazy" width="120" height="120"
-                                    alt="Google">
-                            </div>
+                            <article class="flex-column align-center p-slider__article">
+                                <div class="p-slider__image">
+                                    <img src="./public/partnership/2.png" loading="lazy" width="120" height="120"
+                                        alt="Adidas">
+                                </div>
+                                <p class="text--20 font-bold second-family text-color--almostwhite">
+                                    Adidas
+                                </p>
+                            </article>
                         </li>
                         <li class="p-slider__item">
-                            <div class="p-slider__image">
-                                <img src="./public/partnership/3.png" loading="lazy" width="120" height="120"
-                                    alt="Google">
-                            </div>
+                            <article class="flex-column align-center p-slider__article">
+                                <div class="p-slider__image">
+                                    <img src="./public/partnership/3.png" loading="lazy" width="120" height="120"
+                                        alt="Apple">
+                                </div>
+                                <p class="text--20 font-bold second-family text-color--almostwhite">
+                                    Apple
+                                </p>
+                            </article>
                         </li>
                         <li class="p-slider__item">
-                            <div class="p-slider__image">
-                                <img src="./public/partnership/4.png" loading="lazy" width="120" height="120"
-                                    alt="Google">
-                            </div>
+                            <article class="flex-column align-center p-slider__article">
+                                <div class="p-slider__image">
+                                    <img src="./public/partnership/4.png" loading="lazy" width="120" height="120"
+                                        alt="United colors of benetton">
+                                </div>
+                                <p class="text--20 font-bold second-family text-color--almostwhite text-center">
+                                    United colors of benetton
+                                </p>
+                            </article>
                         </li>
                         <li class="p-slider__item">
-                            <div class="p-slider__image">
-                                <img src="./public/partnership/5.png" loading="lazy" width="120" height="120"
-                                    alt="Google">
-                            </div>
+                            <article class="flex-column align-center p-slider__article">
+                                <div class="p-slider__image">
+                                    <img src="./public/partnership/5.png" loading="lazy" width="120" height="120"
+                                        alt="Coca Cola">
+                                </div>
+                                <p class="text--20 font-bold second-family text-color--almostwhite">
+                                    Coca-Cola
+                                </p>
+                            </article>
                         </li>
                         <li class="p-slider__item">
-                            <div class="p-slider__image">
-                                <img src="./public/partnership/4.png" loading="lazy" width="120" height="120"
-                                    alt="Google">
-                            </div>
+                            <article class="flex-column align-center p-slider__article">
+                                <div class="p-slider__image">
+                                    <img src="./public/partnership/6.png" loading="lazy" width="120" height="120"
+                                        alt="Hunday">
+                                </div>
+                                <p class="text--20 font-bold second-family text-color--almostwhite">
+                                    Hunday
+                                </p>
+                            </article>
                         </li>
                         <li class="p-slider__item">
-                            <div class="p-slider__image">
-                                <img src="./public/partnership/5.png" loading="lazy" width="120" height="120"
-                                    alt="Google">
-                            </div>
+                            <article class="flex-column align-center p-slider__article">
+                                <div class="p-slider__image">
+                                    <img src="./public/partnership/1.png" loading="lazy" width="120" height="120"
+                                        alt="Google">
+                                </div>
+                                <p class="text--20 font-bold second-family text-color--almostwhite uppercase">
+                                    Google
+                                </p>
+                            </article>
                         </li>
                         <li class="p-slider__item">
-                            <div class="p-slider__image">
-                                <img src="./public/partnership/2.png" loading="lazy" width="120" height="120"
-                                    alt="Google">
-                            </div>
+                            <article class="flex-column align-center p-slider__article">
+                                <div class="p-slider__image">
+                                    <img src="./public/partnership/2.png" loading="lazy" width="120" height="120"
+                                        alt="Adidas">
+                                </div>
+                                <p class="text--20 font-bold second-family text-color--almostwhite">
+                                    Adidas
+                                </p>
+                            </article>
                         </li>
                         <li class="p-slider__item">
-                            <div class="p-slider__image">
-                                <img src="./public/partnership/4.png" loading="lazy" width="120" height="120"
-                                    alt="Google">
-                            </div>
+                            <article class="flex-column align-center p-slider__article">
+                                <div class="p-slider__image">
+                                    <img src="./public/partnership/3.png" loading="lazy" width="120" height="120"
+                                        alt="Apple">
+                                </div>
+                                <p class="text--20 font-bold second-family text-color--almostwhite">
+                                    Apple
+                                </p>
+                            </article>
                         </li>
                         <li class="p-slider__item">
-                            <div class="p-slider__image">
-                                <img src="./public/partnership/5.png" loading="lazy" width="120" height="120"
-                                    alt="Google">
-                            </div>
+                            <article class="flex-column align-center p-slider__article">
+                                <div class="p-slider__image">
+                                    <img src="./public/partnership/4.png" loading="lazy" width="120" height="120"
+                                        alt="United colors of benetton">
+                                </div>
+                                <p class="text--20 font-bold second-family text-color--almostwhite text-center">
+                                    United colors of benetton
+                                </p>
+                            </article>
                         </li>
                         <li class="p-slider__item">
-                            <div class="p-slider__image">
-                                <img src="./public/partnership/4.png" loading="lazy" width="120" height="120"
-                                    alt="Google">
-                            </div>
+                            <article class="flex-column align-center p-slider__article">
+                                <div class="p-slider__image">
+                                    <img src="./public/partnership/5.png" loading="lazy" width="120" height="120"
+                                        alt="Coca Cola">
+                                </div>
+                                <p class="text--20 font-bold second-family text-color--almostwhite">
+                                    Coca-Cola
+                                </p>
+                            </article>
                         </li>
                         <li class="p-slider__item">
-                            <div class="p-slider__image">
-                                <img src="./public/partnership/2.png" loading="lazy" width="120" height="120"
-                                    alt="Google">
-                            </div>
+                            <article class="flex-column align-center p-slider__article">
+                                <div class="p-slider__image">
+                                    <img src="./public/partnership/6.png" loading="lazy" width="120" height="120"
+                                        alt="Hunday">
+                                </div>
+                                <p class="text--20 font-bold second-family text-color--almostwhite">
+                                    Hunday
+                                </p>
+                            </article>
                         </li>
                     </ul>
-                    <div class="p-slider__buttons">
-                        <button class="slider__button" id="p-prev">
+                    <div class="slider__buttons p-slider__buttons">
+                        <button class="slider__button slider__prev" id="p-prev">
                             <svg xmlns="http://www.w3.org/2000/svg" width="50" height="51" viewBox="0 0 50 51"
                                 fill="none">
                                 <path
@@ -720,7 +779,7 @@
                                     fill="#B1B3B3" />
                             </svg>
                         </button>
-                        <button class="slider__button" id="p-next">
+                        <button class="slider__button slider__next" id="p-next">
                             <svg xmlns="http://www.w3.org/2000/svg" width="50" height="51" viewBox="0 0 50 51"
                                 fill="none">
                                 <path
@@ -733,9 +792,136 @@
             </div>
         </section>
         <section class="news">
-            <div class="container flex-column news__container">
-                <div class="news__slider">
-
+            <div class="container news__container">
+                <div class="slider news__slider">
+                    <ul class="flex align-center n-slider__list">
+                        <li class="n-slider__item">
+                            <article class="flex-column align-start space-between n-slider__article">
+                                <p class="text--14 text-color--almostwhite n-article__date">
+                                    23.07.2023
+                                </p>
+                                <div class="flex-column align-start n-article__text">
+                                    <a href="#!" class="n-article__link">
+                                        <h4 class="black title--20 second-family text-color--almostwhite">
+                                            Длинное название новости в две строки
+                                        </h4>
+                                    </a>
+                                    <p class="text--14 text-color--almostwhite n-article__par">
+                                        Предварительные выводы неутешительны: укрепление и развитие внутренней структуры
+                                        позволяет выполнить
+                                    </p>
+                                </div>
+                            </article>
+                        </li>
+                        <li class="n-slider__item">
+                            <article class="flex-column align-start space-between n-slider__article">
+                                <p class="text--14 text-color--almostwhite n-article__date">
+                                    23.07.2023
+                                </p>
+                                <div class="flex-column align-start n-article__text">
+                                    <a href="#!" class="n-article__link">
+                                        <h4 class="title--20 second-family black text-color--almostwhite">
+                                            Название новости в две строки чуть-чуть длиннее
+                                        </h4>
+                                    </a>
+                                    <p class="text--14 text-color--almostwhite n-article__par">
+                                        Предварительные выводы неутешительны: укрепление и развитие внутренней структуры
+                                        позволяет выполнить
+                                    </p>
+                                </div>
+                            </article>
+                        </li>
+                        <li class="n-slider__item">
+                            <article class="flex-column align-start space-between n-slider__article">
+                                <p class="text--14 text-color--almostwhite n-article__date">
+                                    23.07.2023
+                                </p>
+                                <div class="flex-column align-start n-article__text">
+                                    <a href="#!" class="n-article__link">
+                                        <h4 class="title--20 second-family black text-color--almostwhite">
+                                            Название новости в две строки чуть-чуть длиннее
+                                        </h4>
+                                    </a>
+                                    <p class="text--14 text-color--almostwhite n-article__par">
+                                        Предварительные выводы неутешительны: укрепление и развитие внутренней структуры
+                                        позволяет выполнить
+                                    </p>
+                                </div>
+                            </article>
+                        </li>
+                        <li class="n-slider__item">
+                            <article class="flex-column align-start space-between n-slider__article">
+                                <p class="text--14 text-color--almostwhite n-article__date">
+                                    23.07.2023
+                                </p>
+                                <div class="flex-column align-start n-article__text">
+                                    <a href="#!" class="n-article__link">
+                                        <h4 class="title--20 second-family black text-color--almostwhite">
+                                            Длинное название новости в две строки
+                                        </h4>
+                                    </a>
+                                    <p class="text--14 text-color--almostwhite n-article__par">
+                                        Предварительные выводы неутешительны: укрепление и развитие внутренней структуры
+                                        позволяет выполнить
+                                    </p>
+                                </div>
+                            </article>
+                        </li>
+                        <li class="n-slider__item">
+                            <article class="flex-column align-start space-between n-slider__article">
+                                <p class="text--14 text-color--almostwhite n-article__date">
+                                    23.07.2023
+                                </p>
+                                <div class="flex-column align-start n-article__text">
+                                    <a href="#!" class="n-article__link">
+                                        <h4 class="title--20 second-family black text-color--almostwhite">
+                                            Длинное название новости в две строки
+                                        </h4>
+                                    </a>
+                                    <p class="text--14 text-color--almostwhite n-article__par">
+                                        Предварительные выводы неутешительны: укрепление и развитие внутренней структуры
+                                        позволяет выполнить
+                                    </p>
+                                </div>
+                            </article>
+                        </li>
+                        <li class="n-slider__item">
+                            <article class="flex-column align-start space-between n-slider__article">
+                                <p class="text--14 text-color--almostwhite n-article__date">
+                                    23.07.2023
+                                </p>
+                                <div class="flex-column align-start n-article__text">
+                                    <a href="#!" class="n-article__link">
+                                        <h4 class="title--20 second-family black text-color--almostwhite">
+                                            Длинное название новости в две строки
+                                        </h4>
+                                    </a>
+                                    <p class="text--14 text-color--almostwhite n-article__par">
+                                        Предварительные выводы неутешительны: укрепление и развитие внутренней структуры
+                                        позволяет выполнить
+                                    </p>
+                                </div>
+                            </article>
+                        </li>
+                    </ul>
+                    <div class="slider__buttons">
+                        <button class="slider__button slider__prev" id="n-prev">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="51" viewBox="0 0 50 51"
+                                fill="none">
+                                <path
+                                    d="M39 26.7985H35.6364V30.1318H32.2727V33.4652H28.9091V36.7985H25.5455V40.1318H22.1818V43.4652H18.8182V46.7985H15.4545V50.1318H12.0909V42.6318V41.1318H15.4545V37.7985H18.8182V34.4652H22.1818V31.1318H25.5455V25.1318V19.6318H22.1818V15.9652H18.8182V12.6318H15.4545V9.2985H12.0909V5.96517V0.131836H15.4545V3.46517H18.8182V6.7985H22.1818V10.1318H25.5455V13.4652H28.9091V16.7985H32.2727V20.1318H35.6364V23.4652H39V26.7985Z"
+                                    fill="#B1B3B3" />
+                            </svg>
+                        </button>
+                        <button class="slider__button slider__next" id="n-next">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="51" viewBox="0 0 50 51"
+                                fill="none">
+                                <path
+                                    d="M39 26.7985H35.6364V30.1318H32.2727V33.4652H28.9091V36.7985H25.5455V40.1318H22.1818V43.4652H18.8182V46.7985H15.4545V50.1318H12.0909V42.6318V41.1318H15.4545V37.7985H18.8182V34.4652H22.1818V31.1318H25.5455V25.1318V19.6318H22.1818V15.9652H18.8182V12.6318H15.4545V9.2985H12.0909V5.96517V0.131836H15.4545V3.46517H18.8182V6.7985H22.1818V10.1318H25.5455V13.4652H28.9091V16.7985H32.2727V20.1318H35.6364V23.4652H39V26.7985Z"
+                                    fill="#B1B3B3" />
+                            </svg>
+                        </button>
+                    </div>
                 </div>
             </div>
         </section>

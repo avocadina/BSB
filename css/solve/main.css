@@ -34,11 +34,14 @@
 .s-article__bg {
     position: absolute;
     top: 0;
-    left: var(--space-7);
+    left: var(--padding-6);
+    right: var(--padding-6);
     transform: translate(0, 50px);
 }
 
 .s-article__bg svg {
+    width: 100%;
+    height: auto;
     z-index: 0;
 }
 

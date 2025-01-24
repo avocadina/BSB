@@ -44,6 +44,7 @@
 	--inner-block-gap: 56px;
 	--new-solve-list-gap: 48px;
 	--slider-gap: 64px;
+
 	--space-0: 2px;
 	--space-1: 6px;
 	--space-2: 12px;
@@ -58,10 +59,13 @@
 	--space-11: 140px;
 
 	/* padding */
+	--news-padding: 170px;
+
 	--button-padding: 10px 40px;
 	--padding-0: 8px;
 	--padding-1: 10px;
 	--padding-3: 18px;
+	--padding-4: 20px;
 	--padding-5: 30px;
 	--padding-6: 40px;
 }

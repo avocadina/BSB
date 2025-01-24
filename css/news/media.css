@@ -1,0 +1,5 @@
+@media screen and (max-width: 1150px) {
+    .n-slider__list {
+        padding: 0 var(--padding-3);
+    }
+}

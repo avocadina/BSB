@@ -11,6 +11,29 @@
 }
 
 @font-face {
+    font-family: "Handjet";
+    src: url('../fonts/HandjetCircle-Black.woff2') format('woff2'),
+        url('../fonts/HandjetCircle-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+    font-stretch: normal;
+    /* unicode-range: U+00-FF, U+980-9FF; */
+    font-feature-settings: "pnum" on, "lnum" on, "smps" on;
+}
+
+@font-face {
+    font-family: "Handjet";
+    src: url('../fonts/Handjet-Bold.ttf') format('ttf');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    font-stretch: normal;
+    /* unicode-range: U+00-FF, U+980-9FF; */
+    font-feature-settings: "pnum" on, "lnum" on, "smps" on;
+}
+
+@font-face {
     font-family: "PT Sans";
     src: url('../fonts/PT_Sans-Web-Bold.ttf') format('ttf');
     font-weight: 400;
@@ -26,18 +49,6 @@
     src: url('../fonts/PressStart2P-Regular.woff2') format('woff2'),
         url('../fonts/PressStart2P-Regular.woff') format('woff');
     font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-    font-stretch: normal;
-    /* unicode-range: U+00-FF, U+980-9FF; */
-    font-feature-settings: "pnum" on, "lnum" on, "smps" on;
-}
-
-@font-face {
-    font-family: "Handjet";
-    src: url('../fonts/HandjetCircle-Black.woff2') format('woff2'),
-        url('../fonts/HandjetCircle-Black.woff') format('woff');
-    font-weight: 900;
     font-style: normal;
     font-display: swap;
     font-stretch: normal;
