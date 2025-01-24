@@ -1,3 +1,19 @@
 .header {
     padding: 0 10px;
 }
+
+.header__button svg {
+    transition: var(--transition)
+}
+
+@media (any-hover: hover) {
+    .header__button:hover svg path {
+        fill: var(--primelogobsbcolours-supportlightpurple);
+        fill-opacity: 1;
+    }
+
+    .header__button:last-child:hover svg path {
+        fill: var(--pantonebsb-pantoneyellow);
+        fill-opacity: 1;
+    }
+}

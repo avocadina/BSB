@@ -1,5 +1,6 @@
 const windowWidth = window.innerWidth
 const isSmall = windowWidth <= 1150
+console.log(isSmall)
 
 // PARTNERSHIP SLIDER
 const commonSlidesPartnership = document.querySelectorAll('.p-slider__item');
