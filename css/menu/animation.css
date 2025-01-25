@@ -1,0 +1,10 @@
+@media (any-hover: hover) {
+    .menu__link:hover {
+        color: var(--primelogobsbcolours-soflightpurple, #9283DB);
+        text-decoration: underline;
+    }
+
+    .menu__link--purple:hover{
+        text-decoration: underline;
+    }
+}

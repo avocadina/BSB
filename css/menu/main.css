@@ -1,0 +1,123 @@
+@import url('./animation.css');
+@import url('./circles.css');
+
+.menu {
+    opacity: 0;
+    transform: translateY(-100%);
+    transition: var(--transition), display 0.5s ease;
+    overflow: hidden;
+
+    position: absolute;
+    inset: 0;
+    top: -100%;
+    z-index: 10;
+    
+    height: 100vh;
+    padding: var(--space-7) 0 var(--space-6);
+}
+
+.menu--active {
+    opacity: 1;
+    transform: translateY(0);
+    inset: 0;
+}
+
+.menu--active .header__button:last-child svg {
+    transform: rotate(45deg);
+}
+
+.menu__hue {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+
+    filter: grayscale(1);
+    background:
+        url('../../public/menu/main-bg.png') no-repeat center / cover,
+        #D9D9D9;
+}
+
+.menu__container {
+    position: relative;
+    z-index: 1;
+    gap: var(--inner-block-gap);
+}
+
+.menu__header {
+    width: 100%;
+}
+
+.menu__label {
+    width: 100%;
+    padding: var(--padding-2) var(--padding-4);
+    gap: var(--space-2);
+
+    border-radius: 7px;
+    border: 2px solid rgba(245, 245, 245, 0.20);
+    background: var(--NeoGlass-GlassLinear, linear-gradient(136deg, rgba(255, 255, 255, 0.40) 7.57%, rgba(255, 255, 255, 0.10) 56.52%));
+}
+
+.menu__search {
+    width: 100%;
+    border: none;
+    background: transparent;
+
+    color: var(--primelogobsbcolours-clearwhite);
+}
+
+.menu__search:focus {
+    outline: none;
+}
+
+.menu__search::placeholder {
+
+    color: rgba(245, 245, 245, 0.20);
+
+    font-size: 14px;
+    letter-spacing: 0.7px;
+}
+
+.menu__content {
+    gap: var(--space-6);
+}
+
+.menu__bottom {
+    max-width: 50%;
+    gap: var(--space-4);
+}
+
+.menu__vote {
+    width: 100%;
+    padding: var(--space-6) var(--space-7);
+    gap: var(--space-5);
+
+    border: 3px solid var(--NeoGlass-GlassLinear, rgba(255, 255, 255, 0.40));
+    background: url('../../public/menu/bg.png') no-repeat center / cover,
+        var(--primeLogobsbcolours-softlightpurple, #9283DB);
+
+    /* Neomorphizm/Glass */
+    box-shadow: 0px 1px 24px -1px rgba(0, 0, 0, 0.05);
+    backdrop-filter: blur(10px);
+}
+
+.menu__vote p {
+    letter-spacing: 0.9px;
+}
+
+.m-contacts__address {
+    gap: var(--space-2);
+}
+
+.menu__link {
+    color: var(--primeLogobsbcolours-almostwhite, #F5F5F5);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    transition: var(--transition);
+}
+
+.address__par {
+    letter-spacing: 0.5px;
+}

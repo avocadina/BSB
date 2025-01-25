@@ -1,6 +1,5 @@
 const windowWidth = window.innerWidth
 const isSmall = windowWidth <= 1150
-console.log(isSmall)
 
 // PARTNERSHIP SLIDER
 const commonSlidesPartnership = document.querySelectorAll('.p-slider__item');
@@ -71,3 +70,22 @@ function shakingSlides(slides) {
         }, 2000);
     });
 };
+
+// MENU
+const menu = document.querySelector('.menu');
+
+const button = document.querySelectorAll('.header__button');
+const main = document.querySelector('.body');
+const hero = document.querySelector('.hero');
+
+function menuFunctiion() {
+    menu.classList.toggle('menu--active');
+    main.classList.toggle('stop-scroll');
+    main.style.paddingRight = menu.classList.contains('menu--active') ? isSmall ? '0' : '5px' : '0';
+}
+
+button.forEach(button => {
+    button.addEventListener('click', () => {
+        menuFunctiion();
+    })
+})

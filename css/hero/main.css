@@ -20,7 +20,8 @@
 }
 
 .hero__main {
-    background: url('../../public/hero/hero-background.png') no-repeat center / cover;
+    background: url('../../public/hero/hero-background.png') no-repeat center / cover,
+        var(--primelogobsbcolours-softlightpurple);
     padding-top: 45px;
     padding-bottom: var(--hero-padding-bottom);
 }

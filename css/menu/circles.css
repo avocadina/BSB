@@ -1,0 +1,47 @@
+.menu__circles {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 1180px;
+    aspect-ratio: 1;
+    z-index: 0;
+    transform: translate(50%, 50%);
+}
+
+.circle__big {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 1180px;
+    aspect-ratio: 1;
+    animation: circle-big 65s linear infinite normal;
+    transform-origin: center;
+}
+
+.circle__small {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 925px;
+    transform-origin: center;
+    animation: circle-small 60s linear infinite normal;
+}
+
+@keyframes circle-small {
+    from {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    to {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+@keyframes circle-big {
+    from {
+        transform: rotate(360deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}

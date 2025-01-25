@@ -12,9 +12,8 @@
 
 @font-face {
     font-family: "Handjet";
-    src: url('../fonts/HandjetCircle-Black.woff2') format('woff2'),
-        url('../fonts/HandjetCircle-Black.woff') format('woff');
-    font-weight: 900;
+    src: url('../fonts/Handjet-Bold.ttf') format('truetype');
+    font-weight: 700;
     font-style: normal;
     font-display: swap;
     font-stretch: normal;
@@ -24,8 +23,9 @@
 
 @font-face {
     font-family: "Handjet";
-    src: url('../fonts/Handjet-Bold.ttf') format('ttf');
-    font-weight: 700;
+    src: url('../fonts/HandjetCircle-Black.woff2') format('woff2'),
+        url('../fonts/HandjetCircle-Black.woff') format('woff');
+    font-weight: 900;
     font-style: normal;
     font-display: swap;
     font-stretch: normal;

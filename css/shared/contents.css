@@ -43,6 +43,17 @@
     grid-column: 12 span;
 }
 
+/* common */
+.left-element {
+    justify-content: start;
+    align-items: start;
+}
+
+.right-element {
+    justify-content: end;
+    align-items: end;
+}
+
 /* justify */
 .space-between {
     justify-content: space-between;
@@ -73,9 +84,17 @@
     align-items: end;
 }
 
+.align-stretch {
+    align-items: stretch;
+}
+
 /* self */
 .self-center {
     align-self: center;
+}
+
+.self-start {
+    align-self: start;
 }
 
 .self-end {
