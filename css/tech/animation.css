@@ -1,9 +1,9 @@
 .tech__list {
-    animation: tech-list-animation--second 15s linear infinite normal;
+    animation: tech-list-animation--second 30s linear infinite normal;
 }
 
 .tech__list--second {
-    animation: tech-list-animation 25s linear infinite normal;
+    animation: tech-list-animation 40s linear infinite normal;
 }
 
 @keyframes tech-list-animation {
@@ -21,6 +21,5 @@
     }
     100% {
         transform: translateX(calc(-50% - 25px));
-
     }
 }

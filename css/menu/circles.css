@@ -8,17 +8,16 @@
     transform: translate(50%, 50%);
 }
 
-.circle__big {
+.circle--big {
     position: absolute;
-    top: 0;
-    left: 0;
+    inset: 0;
     max-width: 1180px;
     aspect-ratio: 1;
     animation: circle-big 65s linear infinite normal;
     transform-origin: center;
 }
 
-.circle__small {
+.circle--small {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -43,5 +42,11 @@
     }
     to {
         transform: rotate(0deg);
+    }
+}
+
+@media screen and (max-width: 1330px) {
+    .menu__circles {
+        transform: translate(50%, 50%) scale(0.7);
     }
 }

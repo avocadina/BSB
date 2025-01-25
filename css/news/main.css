@@ -8,7 +8,7 @@
 }
 
 .n-slider__list {
-    overFlow: hidden;
+    overflow: hidden;
     gap: var(--space-6);
 }
 
